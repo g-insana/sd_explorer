@@ -18,14 +18,14 @@ Note: if the version on github is not rendering properly, try [this one, via nbv
 ## Examples and main functionalities
 * Simple text2img and repeated sampling
 ```prompt2img([prompt1, prompt2], seed=seed, n_samples=3)```
-* Interpolation between text prompts:
+* Interpolation between text prompts ```interpolate_prompts([prompt1, prompt2], interpolate_steps=5)```
 ![From boy to car](boy_to_car.jpg)
-* Walking in embedding space beyond the correct point produced by a prompt:
+* Walking in embedding space beyond the correct point produced by a prompt ```images = beyond_prompt(prompt, walk_steps=8, walk_stepsize=0.01)```
 ![green hair girl eating noodles](green_haired_girl.jpg)
-* Circular or spiral spherical walks through the diffusion noise space with 2 or 3 seeds:
+* Circular or spiral spherical walks through the diffusion noise space with 2 or 3 seeds ```revolve_prompt(prompt, walk_steps=walk_steps, seed=seed, seed2=seed2)```
 ![horses_circular_walk](horses_r48.jpg)
-* Multiple variations over a prompt
-* Gradual interpolation between variations
+* Multiple variations over a prompt ```prompt_variations(prompt, variations=8)```
+* Gradual interpolation between variations ```variate_prompt(prompt=prompt, seed=seed, seed2=seed2, var_steps=6)```
 
 ## Inspiration
 [A walk through latent space with Stable Diffusion](https://keras.io/examples/generative/random_walks_with_stable_diffusion/)
