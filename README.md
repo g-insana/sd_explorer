@@ -12,7 +12,7 @@ Clone the repository and run the provided jupyter notebook.
 Code and usage examples are all in the provided [jupyter notebook](sd_explorer.ipynb).
 All the main functions have documentation on their usage and arguments.
 
-Note: if the version on github is not rendering properly, try [this one, via nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/g-insana/sd_explorer/blob/main/sd_explorer.ipynb) to preview the notebook before you run it on your environment.
+Note: if the version on github is not rendering properly, try [this one, via nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/g-insana/sd_explorer/blob/main/sd_explorer.ipynb) to preview the notebook before you run it on your environment. Tip: jump to usage examples
 
 ## Examples and main functionalities
 * Simple text2img and repeated sampling
@@ -20,7 +20,7 @@ Note: if the version on github is not rendering properly, try [this one, via nbv
 ![From boy to car](boy_to_car.jpg)
 * Walking in embedding space beyond the correct point produced by a prompt:
 ![green hair girl eating noodles](green_haired_girl.jpg)
-* Circular or spiral spherical walks through the diffusion noise space:
+* Circular or spiral spherical walks through the diffusion noise space with 2 or 3 seeds:
 ![horses_circular_walk](horses_r48.jpg)
 * Multiple variations over a prompt
 * Gradual interpolation between variations
