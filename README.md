@@ -1,6 +1,7 @@
 # sd_explorer
 Exploration of [Stable Diffusion](https://github.com/Stability-AI/StableDiffusion) spaces (prompt embedding and diffusion noise spaces) via [pytorch](https://pytorch.org/), python code and examples.
-by [Giuseppe Insana](https://insana.net), December 2022
+
+By [Giuseppe Insana](https://insana.net), December 2022
 
 ## Requirements
 torch, transfomers, diffusers, safetensors, PIL, matplotlib
