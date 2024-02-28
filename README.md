@@ -12,7 +12,7 @@ Clone the repository and run the provided jupyter notebook.
 Code and usage examples are all in the provided [jupyter notebook](sd_explorer.ipynb).
 All the main functions have documentation on their usage and arguments.
 
-Note: if the version on github is not rendering properly, try [this one, via nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/g-insana/sd_explorer/blob/main/sd_explorer.ipynb) to preview the notebook before you run it on your environment. Tip: jump to usage examples
+Note: if the version on github is not rendering properly, try [this one, via nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/g-insana/sd_explorer/blob/main/sd_explorer.ipynb#Examples) to preview the notebook before you run it on your environment. Tip: jump to usage examples
 
 ## Examples and main functionalities
 * Simple text2img and repeated sampling
