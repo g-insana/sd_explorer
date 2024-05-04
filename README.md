@@ -1,4 +1,4 @@
-# sd_explorer
+# SD Explorer
 [![DOI](https://zenodo.org/badge/764609923.svg)](https://zenodo.org/doi/10.5281/zenodo.11113560)
 
 Exploration of [Stable Diffusion](https://github.com/Stability-AI/StableDiffusion) spaces (prompt embedding and diffusion noise spaces) via [pytorch](https://pytorch.org/), python code and examples.
